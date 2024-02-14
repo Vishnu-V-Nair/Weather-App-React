@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main{
+  background-color: rgb(82, 82, 240);
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  margin-bottom: 32px;
+}
+
+#temperature{
+  color: yellow;
+  font-size: 32px;
+}
+
+button{
+  padding:1rem;
+  width: 150px;
+  margin-right: 25px;
+  background-color: rgb(16, 16, 194);
+  color: white;
+  border-radius:  6px;
+  border: none;
+  transition: all ease-in 0.2s;
+  
+}
+
+button:hover{
+background-color: rgb(82, 82, 240);
+cursor: pointer;
+}
